@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Admin| RPL GDC</title>
+  <link rel="shortcut icon" href="/img/logo.jpg">
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+  <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="/bootstrap/css/AdminLTE.min.css">
+  <link rel="stylesheet" href="/bootstrap/css/skins-admin.css">
+  <link rel="stylesheet" href="/datatable/css/jquery.dataTables.css">
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+  <link rel="stylesheet" type="text/css" href="/datatable/css/dataTables.bootstrap.cs">
+  <style>
+    @media print {
+      .aksi {
+        display: none;
+      }
+    }
+    footer {
+
+    margin-top: 31px; 
+    width: 100%;
+    padding: 1%;
+    background-color: #333;
+}
+  </style>
+  <link rel="stylesheet" href="https://adminlte.io/themes/AdminLTE/bower_components/bootstrap-daterangepicker/daterangepicker.css">
+  <link rel="stylesheet" href="https://adminlte.io/themes/AdminLTE/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
+  <script src="/jquery/jquery-2.2.3.min.js"></script>
+  <script src="/jquery/npm.js"></script>
+  <script src="/bootstrap/js/app.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+  <style type="text/css">
+  	.navbar-brand>img {
+  height: 100%;
+  
+  width: auto;
+}
+  </style>
+
+</head>
+<body style="background-color: #f0f0f0">
+ <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand js-scroll-trigger" href="#"><span><img alt="Brand" src="/img/logo.jpg" width="30px"> RPLGDC Laboratory</span></a>
+     </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav ">
+      <li><a href=""><i class="fa fa-dashboard"></i> Dashboard</a></li>
+      <li><a href=""><i class="fa fa-table"></i> Data Pendaftar</a></li>
+      <li><a href=""><i class="fa fa-users"></i> Data Account</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+         <li><a href="#" title="USER ACCOUNT"><i class="fa fa-user-circle-o"  style="font-size:20px;"></i> <%= login %></a></li>
+    <a href="/logout" class="btn btn-warning navbar-btn">Logout <i class="fa fa-sign-out"></i></a>
+    </ul>
+   </div>
+  </div>
+</nav>
