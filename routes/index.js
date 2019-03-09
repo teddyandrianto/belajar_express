@@ -164,7 +164,7 @@ app.post('/verifyToken' , function (req, res,next) {
 	 else {
 		// send not found error
 		//res.send(401, " ");
-		res.status(401).send("Invalid Access");
+		res.status(401).send("Invalid Acces");
 	}
 });
 
